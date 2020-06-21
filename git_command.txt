@@ -43,3 +43,7 @@ git remote // switching to remote
 git push -u origin master // pushing all files to above url specified  
 
 git push // it will push all changes done on file Note : To push on remote git first need to add, and commit on local and then push
+
+git pull // downloading change file from master that have done
+
+git clone <git-url>// downloading entire project with specified git url 
