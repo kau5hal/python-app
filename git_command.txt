@@ -1,0 +1,19 @@
+git init  // to initisalize git repository 
+
+git config --global user.name 'kau5hal'  // To add user username access to this repository
+
+git config --global user.email 'kaushalpatel089@gmail.com' // To add user email access to this repository
+
+git add <file> // To add file to git repository 
+
+git add . // To add all file to git repository
+
+git add *.py  // To add all file with extension py to git repository
+
+git rm --cached <file>  // To remove <file> from git repository
+
+git rm --cached *.py // To remove all file with extension py from git repository
+
+git rm --cached . // To remove all file from git repository  
+ 
+git status // To check the status of git
