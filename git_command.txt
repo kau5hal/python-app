@@ -34,4 +34,10 @@ Note:
 
 git merge login // merging login branch to master 	
  
+git remote // to switch remote for upload
 
+git remote add origin https://github.com/kau5hal/python-app.git  // adding origin to this url
+
+git remote // switching to remote
+
+git push -u origin master // pushing all files to above url specified  
