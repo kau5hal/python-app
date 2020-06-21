@@ -41,3 +41,5 @@ git remote add origin https://github.com/kau5hal/python-app.git  // adding origi
 git remote // switching to remote
 
 git push -u origin master // pushing all files to above url specified  
+
+git push // it will push all changes done on file Note : To push on remote git first need to add, and commit on local and then push
