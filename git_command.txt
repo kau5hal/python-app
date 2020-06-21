@@ -24,4 +24,14 @@ git commit -m 'chnage modules.py' // commit changes with skip edit part on git r
 
 touch .gitignore // create file that used to ignore file that are listed on that page 
 
-git branch mybranch // create branch
+git branch login // create branch with name login
+
+git checkout login // switch to different branch
+
+Note: 
+1.If we are creating new file i.e (index.html) on login branch and will commit. then after switching to master branch this file (index.html) will not displayed in master branch
+2. to overcome this need to merge login branch to master 
+
+git merge login // merging login branch to master 	
+ 
+
