@@ -17,3 +17,11 @@ git rm --cached *.py // To remove all file with extension py from git repository
 git rm --cached . // To remove all file from git repository  
  
 git status // To check the status of git
+
+git commit  // To commit all chenged file in git repository
+
+git commit -m 'chnage modules.py' // commit changes with skip edit part on git repository (efficient way)
+
+touch .gitignore // create file that used to ignore file that are listed on that page 
+
+git branch mybranch // create branch
