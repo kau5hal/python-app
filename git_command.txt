@@ -47,3 +47,12 @@ git push // it will push all changes done on file Note : To push on remote git f
 git pull // downloading change file from master that have done
 
 git clone <git-url>// downloading entire project with specified git url 
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
