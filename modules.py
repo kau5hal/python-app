@@ -28,6 +28,6 @@ c = CamelCase()
 
 email = 'kaushalpatel089@gmail.com'
 if validate_email(email):
-    print('Email is valid')
+    print('Email is valid ')
 else:
     print('Email is not valid')
